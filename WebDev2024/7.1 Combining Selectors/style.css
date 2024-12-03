@@ -1,0 +1,24 @@
+/* Write your code here: */
+
+/* polielemento */
+h1,h2{
+    color: blueviolet;
+}
+/* parent-child ou relação direta de 1 nível */
+div>p{
+    color: firebrick;
+}
+/* Ascendant - Descendant ou relação para cima de 2 niveis */
+.box ul {
+    color: blue;
+}
+/* Chaining ou sequencial funciona com 2 ou mais elementos */
+/* ter atencao ao 1o elemento */
+li.done{
+    color: seagreen;
+}
+
+/* Combinar combinacoes */
+ul p.done{
+    font-size: 0.5rem;
+}
